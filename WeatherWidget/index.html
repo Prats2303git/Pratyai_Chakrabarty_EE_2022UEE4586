@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Widget</title>
+    <link rel="icon" href="./assets/sunny.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+        integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="searchbar">
+            <input type="text" placeholder="Enter the location" spellcheck="false">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="container">
+            <div class="moving">
+                <div class="clouds1">
+                    <img src="./assets/cloud.png">
+                </div>
+                <div class="clouds2">
+                    <img src="./assets/cloud.png">
+                </div>
+                <div class="clouds3">
+                    <img src="./assets/cloud.png">
+                </div>
+                <div class="clouds4">
+                    <img src="./assets/cloud.png">
+                </div>
+                <div class="clouds5">
+                    <img src="./assets/cloud.png">
+                </div>
+            </div>
+            <div class="moving">
+                <div class="clouds1">
+                    <img src="./assets/cloud.png">
+                </div>
+                <div class="clouds2">
+                    <img src="./assets/cloud.png">
+                </div>
+                <div class="clouds3">
+                    <img src="./assets/cloud.png">
+                </div>
+                <div class="clouds4">
+                    <img src="./assets/cloud.png">
+                </div>
+                <div class="clouds5">
+                    <img src="./assets/cloud.png">
+                </div>
+            </div>
+            <div class="moving">
+                <div class="clouds1">
+                    <img src="./assets/cloud.png">
+                </div>
+                <div class="clouds2">
+                    <img src="./assets/cloud.png">
+                </div>
+                <div class="clouds3">
+                    <img src="./assets/cloud.png">
+                </div>
+                <div class="clouds4">
+                    <img src="./assets/cloud.png">
+                </div>
+                <div class="clouds5">
+                    <img src="./assets/cloud.png">
+                </div>
+            </div>
+        </div>
+        <div class="error">Invalid city name</div>
+        <div class="widget">
+            <img src="./assets/cloudy.png">
+            <h1 class="temperature">32°C</h1>
+            <h2 class="city">Siliguri</h2>
+        </div>
+        <div class="footer">
+            <div class="details">
+                <div class="icon"><i class="ri-water-percent-line"></i></div>
+                <div>
+                    <p class="humidity">64%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="details">
+                <div class="icon"><i class="ri-windy-line"></i></i></div>
+                <div>
+                    <p class="wind">5km/h</p>
+                    <p>Wind speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
